@@ -1,0 +1,472 @@
+﻿*{
+    text-align: left;
+    color: #0967b4;
+    font-family:Arial, Verdana;
+}
+
+body {
+    background-color: #EDF2F4;
+    background-image:url(slike/bluedabida.jpg);
+}
+ label{
+	 font-size:24px;
+	 display:none;}
+	 
+#toggle{
+	display:none;}
+	
+header{
+    display:block;
+    text-align:center;
+    font-size:medium;
+    background-color:#d9f0ff;
+    height:100%;
+    width:100%;
+    margin-top:-40px;
+    padding-top:30px;
+    padding-bottom:10px;
+    overflow:hidden;
+}
+header p{
+    text-align:center;
+    font-size:x-large;
+    font-family:'Century Gothic';
+}
+#content {
+    max-width:960px;
+	min-hight:100%;
+   /*border: 3px solid red;*/
+   /*margin-left:auto;*/
+    margin:0 auto;
+	position:relative;}
+
+#horizontal{
+  width: 96,5%;
+  height: 30px;
+  text-align: center; 
+  margin:0 auto;
+  background-color:#478dc6;
+  border:2px solid #478dc6;
+  border-right:none;
+  border-left:none;
+  /*box-shadow: 0 10px white;*/               						 /* Masking Shadow*/
+			  /*-2px 0 10px -2px #0043A8, 6px 0 10px -2px #0043A8;*/ /* Real shadow*/
+ padding:0 auto;
+ border-top: 4px double lightgray;
+ border-bottom: 4px double lightgray;
+}
+
+#horizontal ul
+{
+	font-family:Thoma,sans-serif;
+	list-style-type:none;
+	padding: 20px;
+	overflow:hidden;
+}
+
+#horizontal li
+{
+	float:left;
+	margin-left:20px;
+}
+
+#horizontal a:link, a:visited{
+    font-family:Tahoma;
+    font-size:20px;
+    display:block;
+    width:120px;
+	height:20px;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:none;
+}
+
+#horizontal a:hover{
+ border-bottom: 4px dotted white;
+ border-bottom-left-radius:10px;
+ border-bottom-right-radius:10px;
+ border-top-right-radius:10px;
+ border-top-left-radius:10px;
+}
+
+#horizontal a:active{
+  color:blue;
+}
+
+#vertical{
+    float:left;
+    background-color:#b4d2e7;
+    border: 2px solid #b4d2e7;
+    height:1497px;
+    width:150px;
+    text-align:center;
+    margin:0 auto;
+    text-align:center;
+    display:block;
+    box-shadow: 7px 5px 15px gray;
+}
+#vertical ul, li, li li{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    font-family:Tahoma;
+}
+#vertical li{
+        list-style-type: none;
+        position: relative;
+        border-width: 3px;
+        border-color: #1f74ba;
+        border-style: dotted;
+        background-color: #b4d2e7;
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius:10px;
+        border-top-right-radius:10px;
+        border-top-left-radius:10px;
+        font-weight:bold;
+        padding-left:25px;
+    }
+#vertical ul { 
+    line-height:15px;
+    padding-left:0px;
+    padding-top:0px;
+}
+#vertical li li{
+    list-style:none;
+    position:relative;
+    left:120px;
+    top: -25px;
+    margin-top:-1px;
+    margin-left:-1px;
+    padding-right:10px;
+    padding-left:10px;
+}
+#vertical ul ul{
+ position:absolute;
+ visibility:hidden;
+ top:23px;
+ font-size:small;
+ border-width:3px;
+ border-style:dotted;
+ border-color:#b4d2e7;
+}
+
+#vertical ul li a:link, ul li a:visited{
+    display: block;
+    width: 92px;
+    background-color: none;
+    text-decoration: none;
+    color: #0043A8;
+    text-align:center;
+}
+
+#vertical ul li a:hover{
+    display:block;
+    color:cornflowerblue;
+    font-weight: bold;
+    background-color: white;
+    visibility:visible;
+}
+
+a:first-child:hover{
+    border:0;
+}
+
+#vertical ul li:hover ul{
+    visibility: visible;
+    border:none;
+}
+
+section {
+    background-image:url(slike/blue.jpg);
+    background-position-x:center;
+    display:block;
+    width:87,5%;
+	height:auto;
+    background-color: #d3e7ea;
+    height: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left:28px;
+    padding-right:10px;
+    text-decoration-color:black;  
+}
+
+
+footer {
+    display:block;
+    padding-top:25px;
+    background-color:#b5dbf4;
+    height: 50px;
+    width: 100%;
+    text-align:center;
+    border-top: 4px double gray;
+}
+
+footer {
+    float: left;
+}
+#gradja li{
+    list-style:circle;
+    list-style-position:inside;
+}
+#top li{
+    list-style:circle;
+    list-style-position:inside;
+}
+
+#tip li{
+    list-style:circle;
+    list-style-position:inside;
+}
+
+.podj li{
+    list-style:circle;
+    list-style-position:inside;
+}
+.podj a:link, a:visited{
+ text-decoration:none;
+ background-color:none;
+}
+
+#gl_lis li{
+    list-style:decimal;
+    list-style-position:inside;
+}
+
+#lisi li{
+    list-style:lower-greek;
+    list-style-position:inside;
+   
+}
+
+#lili li{
+list-style:disc;
+    list-style-position:inside;
+}
+
+figure{
+text-align: center;
+display: block;
+margin: 0 auto;
+}
+
+.opis{
+    font-size:smaller;
+    text-align:center;
+	padding: 10px 0px 10px 0px;
+}
+
+.okvr{
+    border: 2px solid lightblue;
+    padding: 20px;
+    box-shadow: 5px 5px 8px lightblue;
+
+}
+td{
+    color:#0967b4;
+    border: 1px solid #b4b4b4;
+ }
+th{
+    border: 1px solid #b4b4b4;
+    background-color:#0043A8;
+    color:white;
+}
+.link ol li a:link, ol li a:visited{
+    
+    text-decoration:none;
+    background-color:none;
+    color:#2894ed;
+}
+.link ol li a:hover, ol li a:active{
+    text-decoration:none;
+    background-color:none;
+    color:#8bc1ed;
+    font-style:italic;
+}
+
+article > a:hover, a:active{
+    text-decoration:none;
+    background-color:none;
+    color:darkgray;
+    font-style:italic;
+}
+
+a[href^="mailto"] { 
+text-decoration:none;
+color:#3086CD}
+
+#kazalo{
+content: "";
+clear: both;
+overflow: hidden;}
+.red{
+width:40%;
+height:100%;
+float: left;
+padding: 15px;	
+	}
+dt{
+	font-size:18px;
+	font-weight:bold;}
+
+@media(max-width:959px)
+{
+ label{
+	 text-align:left;
+	 font-size:26px;
+	 display:block;
+	 cursor:pointer;
+	 }
+#nav-btn{
+ text-align:left;
+  width: 100%;
+  height:50px;
+  background-color:#478dc6;
+   margin-right:2px;
+   border-right:none;
+  border-left:none;
+}
+	#toggle{
+	 display:none;
+	 }
+	 
+	#toggle:checked + #horizontal{
+		display:block;
+	}
+	
+	 
+#horizontal{
+  text-align:left;
+  width:100%;
+  height: 200px;
+  background-color:#478dc6;
+  border-right:none;
+  border-left:none;
+  padding-left:0;
+  padding-right:0;
+  padding-top:30px;
+ padding-bottom:5px;
+ border-bottom: 4px double lightgray;
+ display:none;
+ }
+
+#horizontal ul{
+	overflow:hidden;
+	padding-bottom: 1px;
+}
+	
+#horizontal a:link, a:visited{
+	margin: auto;
+    font-family:Tahoma;
+    font-size:20px;
+    display:block;
+    width:925px;
+	padding:0 auto;
+    font-weight:bold;
+    text-align:left;
+    padding:0 auto;
+    text-decoration:none;
+	border-bottom:2px solid #C2C2C2;
+	margin-left:-20px;
+}
+
+#horizontal a:hover{
+ font-size:larger;
+ background:none;
+ border:none;
+}
+
+#horizontal a:active{
+ color:blue;
+ font-style:normal;
+
+ }
+ 
+ #vertical{
+    float:left;
+    background-color:#b4d2e7;
+    border: 2px solid #b4d2e7;
+    height:1497px;
+    width:150px;
+    text-align:center;
+    margin:0 auto;
+    display:block;
+    box-shadow: 7px 5px 15px gray;
+}
+#vertical ul, li, li li{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    font-family:Tahoma;
+}
+#vertical li{
+        list-style-type: none;
+        position:relative;
+        border-width: 3px;
+        border-color: #1f74ba;
+        border-style: dotted;
+        background-color: #b4d2e7;
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius:10px;
+        border-top-right-radius:10px;
+        border-top-left-radius:10px;
+        font-weight:bold;
+        padding-left:25px;
+    }
+#vertical ul { 
+    line-height:15px;
+    padding-left:0px;
+    padding-top:0px;
+}
+#vertical li li{
+    list-style:none;
+    position:relative;
+    left:120px;
+    top: -25px;
+    margin-top:-1px;
+    margin-left:-1px;
+    padding-right:10px;
+    padding-left:10px;
+}
+#vertical ul ul{
+ position:absolute;
+ visibility:hidden;
+ top:23px;
+ font-size:small;
+ border-width:3px;
+ border-style:dotted;
+ border-color:#b4d2e7;
+}
+
+#vertical ul li a:link, ul li a:visited{
+    display: block;
+    width: 92px;
+    background-color: none;
+    text-decoration: none;
+    color: #0043A8;
+    text-align:center;
+}
+
+#vertical ul li a:hover{
+    display:block;
+    color:cornflowerblue;
+    font-weight: bold;
+    background-color: white;
+    visibility:visible;
+}
+
+
+a:first-child:hover{
+    border:0;
+}
+
+#vertical ul li:hover ul{
+    visibility: visible;
+    border:none;
+}
+
+img{
+	max-width:100%;
+}
+
+}

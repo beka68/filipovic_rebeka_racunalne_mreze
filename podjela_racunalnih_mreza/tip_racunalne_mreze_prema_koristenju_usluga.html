@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Računale mreže</title>
+    <meta charset="utf-8" >
+    <meta name="description" content="Racunalne mreže">
+    <meta name="keywords" content="računalne mreže, mreža, wan, lan, wlan, povezivanje, mrezna topologija">
+    <meta name="author" content="Rebeka Filipović">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../design.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <a href="../index.html">
+                <img src="../networks.png" width="200" alt="slika globalne mreze">
+            </a>
+            <p>Računalne mreže</p>
+        </header>
+          <nav>
+           <label id="nav-btn" for="toggle" >&#9776;</label>
+           <input type="checkbox" id="toggle">
+            <ul id="horizontal">
+                <li><a href="../index.html">Naslovna</a></li>
+                <li><a href="../uvod.html">Uvod</a></li>
+                <li><a href="../sadrzaj.html">Sadržaj</a></li>
+                <li><a href="../zakljucak.html">Zaključak</a></li>
+                <li><a href="../pojmovi.html">Pojmovi</a></li>
+                <li><a href="../literatura.html">Literatura</a></li>
+              
+            </ul>
+        </nav>
+        <nav id="vertical">
+            <ul>
+                <li>
+                    <a href="../razvoj_racunalnih_mreza.html">Razvoj računalnih mreža</a>
+                    <ul>
+                        <li><a href="../razvoj_racunalnih_mreza/telegraf.html">Telegraf</a></li>
+                        <li><a href="../razvoj_racunalnih_mreza/prva_prava_mreza.html">Prva prava mreža</a></li>
+                        <li><a href="../razvoj_racunalnih_mreza/povijest_racunalnih_mreza.html">Povijest računalnih mreža</a></li>
+                    </ul>
+                </li>
+                <li><a href="../sastavnice_racunalnih_mreza.html">Sastavnice računalnih mreža</a></li>
+                <li><a href="../topologija_racunalnih_mreza.html">Topologija računalnih mreža</a></li>
+                <li>
+                    <a href="../podjela_racunalnih_mreza.html">Podjela računalnih mreža</a>
+                    <ul>
+                        <li><a href="../podjela_racunalnih_mreza/tip_racunalne_mreze_prema_elementima.html"> Računalne mreže prema elementima</a></li>
+                        <li><a href="../podjela_racunalnih_mreza/tip_racunalne_mreze_prema_koristenju_usluga.html">Računalne mreže prema korištenju usluga</a></li>
+                    </ul>
+                <li>
+                    <a href="../podjela_mreza_prema_dosegu.html">Podjela mreža prema dosegu</a>
+                    <ul>
+                        <li><a href="../dvije_glavne_mreze_prema_dosegu/lan.html">Lokalne mreže (eng. Local Area Network)</a></li>
+                        <li><a href="../dvije_glavne_mreze_prema_dosegu/wan.html">Mreže velikog dosega(engl. Wide Area Network)</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <h1>Tip račulane mreže prema načinu korištenja usluga </h1>
+                <h2>Mreža terminal – računalo</h2>
+                <p>Mreža terminal – računalo je najstariji oblik korištenja usluga računalnih mreža. U današnje vrijeme se njima, iako rijetko, služi administracija za potrebe pri administriranju i podešavanju računalne opreme na daljinu. Ovu uslugu karakterizira da se obrada svih podataka odvija na glavnom računalu (hostu), a treminal se služi za unos podataka, programa i sirovu prezentaciju rezultata.(Lebinac 2013.)</p>
+                
+                <figure> <img src="../slike/t-h.jpg" class="okvr" width="250" alt="mreža terminal - računalo" /> 
+                 <figcaption class="opis">Slika 6.1. Mreža - terminal računalo </figcaption> 
+                </figure>
+
+                <h2>Mreža klijent-poslužitelj</h2>
+                <p>Mreža klijent-poslužitelj (engl. <em>client-server</em>) dijeli uređaje u mreži po njihovim ulogama. Ova mreža kristi načelo komunikacije koje se bazira na shemi zahtjev/odgovor. Prema tome, poslužitelj je onaj koji pruža servise i usluge klijentima na zahtjev. Dok su klijenti uređaji u mreži koji posjeduju programe koji pozivaju procese na poslužiteljima.  (Grgić 2010.)</p>
+                
+                <figure> <img src="../slike/client-server.png" class="okvr" width="200" alt="mreža korisnik - poslužitelj" />
+                    <figcaption class="opis">Slika 6.2. Mreža korisnik - poslužitelj </figcaption> 
+                </figure>
+
+                <h2>Mreža ravnopravnih korisnika</h2>
+                <p>Mreža ravnopravnih korisnika (engl. <em>peer-to-peer</em>) je model mreže kod kojeg korisnici mogu biti klijent ili poslužitelj ili oboje po potrebi. Dakle,  neovisno o tome je li računalo u danom trenutku klijent(onaj koji šalje zahtjev) ili poslužitelj (onaj koji odgovara na zahtjev) niti jedan tu ulogu ne izvršava stalno. (Grgić 2010.)</p>
+                
+                <figure> <img src="../slike/ptp.jpg"  class="okvr" width="150" alt="mreža ravnopravnih korisnika" />
+                    <figcaption class="opis">Slika 6.3. Mreža ravnopravnih korisnika</figcaption> 
+                </figure>
+
+                <h2>Mreža s distribuiranom obradom</h2>
+                <p>Mreža s distribuiranom obradom <em>(engl. distributed processing)</em> zamjena su za velika središnja računala, pogotovo zbog velike procesne moći, kada su programi i podaci nalaze na mnogo različitih lokacija. Postoji mogućnost da se temelji na klijen-poslužiteljskom konceptu ili na konceptu ravnopravnih korisnika. (Lebinac, 2013.)</p>
+                
+                <figure> <img src="../slike/d-p.jpg" class="okvr"  height="150" alt="mreža s distribuiranom obradom" /> 
+                    <figcaption class="opis">Slika 6.4. Mreža s distribuiranom obradom</figcaption>
+                </figure>
+            </article>
+        </section>
+        <footer>
+            © Rebeka Filipović - Osnove informatike - 2017
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
